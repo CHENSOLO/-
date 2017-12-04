@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">wenjianshuju</string>
+    <string name="TX_ONE">请输入文件名</string>
+    <string name="TX_TWO">请输入文件内容</string>
+    <string name="BT_ONE">写入</string>
+    <string name="BT_TWO">清空</string>
+    <string name="BT_THREE">读取文件内容</string>
+    <string name="BT_open">打开</string>
+    <string name="BT_save">保存到SD卡中</string>
+    <string name="BT_Read">读取sd卡中的文件</string>
+</resources>

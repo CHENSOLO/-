@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<TextView
+    android:id="@+id/TV_input"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/TX_ONE"/>
+    <EditText
+        android:id="@+id/ET_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/TV_input_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TX_TWO"/>
+    <EditText
+        android:id="@+id/ET_input_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/BT_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BT_save"/>
+
+    <Button
+        android:id="@+id/BT_clean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BT_TWO"/>
+
+    <Button
+        android:id="@+id/BT_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BT_Read"/>
+
+
+</LinearLayout>

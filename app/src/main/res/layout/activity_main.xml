@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wenjian.wenjianshuju.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/TX_ONE"/>
+
+    <EditText
+        android:id="@+id/ET_ONE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TX_TWO"/>
+    <EditText
+        android:id="@+id/ET_TWO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="2"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BT_ONE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BT_ONE"/>
+
+     <Button
+         android:id="@+id/BT_TWO"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/BT_TWO"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BT_THREE"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/BT_THREE"/>
+
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BT_open"/>
+
+
+</LinearLayout>
